@@ -36,6 +36,9 @@ vendor.audio.offload.multiaac.enable=true
 vendor.audio.dolby.ds2.hardbypass=true
 vendor.audio.flac.sw.decoder.24bit=true
 
+#low audio flinger standby delay to reduce power consumption
+ro.audio.flinger_standbytime_ms=300
+
 # Bluetooth
 bluetooth.hfp.client=1
 ro.qualcomm.bt.hci_transport=smd
