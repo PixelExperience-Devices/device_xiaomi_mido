@@ -1,8 +1,6 @@
 # ADSP
 vendor/bin/adsprpcd
 vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsp_hvx_callback_skel.so
-vendor/lib/libadsp_hvx_stub.so
 vendor/lib/libadsprpc.so
 -vendor/lib/libaudio_log_utils.so
 vendor/lib/libfastcvadsp_stub.so
@@ -14,22 +12,16 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libqtigef.so
 
-# ADSP modules
-vendor/lib/rfsa/adsp/libadsp_fd_skel.so
-vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so
-vendor/lib/rfsa/adsp/libadsp_hvx_skel.so
-vendor/lib/rfsa/adsp/libadsp_hvx_stats.so
-vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_BGGR.so
-vendor/lib/rfsa/adsp/libadsp_hvx_zzhdr_RGGB.so
+# ADSPmodules
 vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libexternal_dog_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/rfsa/adsp/libvpp_frc.so
-vendor/lib/rfsa/adsp/libvpp_svc_skel.so
-vendor/lib/rfsa/adsp/us-syncproximity.so
 
 # Audio
 lib/libqct_resampler.so
@@ -124,7 +116,6 @@ vendor/lib/libcppf.so
 vendor/lib/libqisl.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
-vendor/lib64/lib-sec-disp.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
@@ -138,7 +129,7 @@ vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 
-#FM
+# FM
 -lib/vendor.qti.hardware.fm@1.0.so
 -lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
@@ -147,8 +138,8 @@ vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
 # Gatekeeper
-vendor/lib/hw/gatekeeper.msm8996.so:vendor/lib/hw/gatekeeper.msm8953.so
-vendor/lib64/hw/gatekeeper.msm8996.so:vendor/lib64/hw/gatekeeper.msm8953.so
+vendor/lib/hw/gatekeeper.msm8953.so
+vendor/lib64/hw/gatekeeper.msm8953.so
 
 # GPS
 lib/vendor.qti.gnss@1.0.so
@@ -193,7 +184,7 @@ vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/hw/vulkan.msm8996.so:vendor/lib/hw/vulkan.msm8953.so
+vendor/lib/hw/vulkan.msm8953.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
@@ -224,7 +215,7 @@ vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/hw/vulkan.msm8996.so:vendor/lib64/hw/vulkan.msm8953.so
+vendor/lib64/hw/vulkan.msm8953.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
@@ -256,11 +247,11 @@ vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
 vendor/bin/ipacm-diag
 
 # Keystore
-vendor/lib/hw/keystore.msm8996.so:vendor/lib/hw/keystore.msm8953.so
-vendor/lib64/hw/keystore.msm8996.so:vendor/lib64/hw/keystore.msm8953.so
+vendor/lib/hw/keystore.msm8953.so
+vendor/lib64/hw/keystore.msm8953.so
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.msm8996.so:vendor/lib/hw/sound_trigger.primary.msm8953.so
+vendor/lib/hw/sound_trigger.primary.msm8953.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libsmwrapper.so
 
@@ -280,7 +271,6 @@ vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 -vendor/lib/libgpustats.so
 vendor/lib/libmm-color-convertor.so
-vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
 vendor/lib/libvqzip.so
 vendor/lib64/libI420colorconvert.so
@@ -297,7 +287,6 @@ vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 -vendor/lib64/libgpustats.so
 vendor/lib64/libmm-color-convertor.so
-vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
 
 # Modem
@@ -388,16 +377,14 @@ vendor/lib64/libsmemlog.so
 # Radio
 -app/SimSettings/SimSettings.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
-etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 -framework/QtiTelephonyServicelibrary.jar
--framework/qcnvitems.jar
 -framework/qcrilhook.jar
 -framework/qti-telephony-common.jar
 -framework/telephony-ext.jar
-lib64/libparam.so
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+etc/permissions/qti_libpermissions.xml
 vendor/bin/hw/rild
 vendor/bin/ipacm-diag
 vendor/bin/netmgrd
@@ -409,6 +396,8 @@ vendor/etc/data/netmgr_config.xml
 vendor/lib/libmdmdetect.so
 vendor/lib/libqcmaputils.so
 vendor/lib/libril.so
+lib/android.hidl.manager@1.0.so
+lib64/android.hidl.manager@1.0.so
 vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so
@@ -448,7 +437,6 @@ etc/permissions/qti-vzw-ims-internal.xml
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so
 lib/lib-imsvideocodec.so
-lib/lib-imsvt.so
 lib/lib-imsvtextutils.so
 lib/lib-imsvtutils.so
 lib/libdiag_system.so
@@ -496,16 +484,14 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 
 # Sensors
 vendor/bin/sensors.qcom
-vendor/lib/hw/activity_recognition.msm8996.so:vendor/lib/hw/activity_recognition.msm8953.so
+vendor/lib/hw/activity_recognition.msm8953.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
-vendor/lib/libsensor_thresh.so
 vendor/lib/libsensor_user_cal.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.msm8996.so:vendor/lib64/hw/activity_recognition.msm8953.so
+vendor/lib64/hw/activity_recognition.msm8953.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor_thresh.so
 vendor/lib64/libsensor_user_cal.so
 vendor/lib64/sensors.ssc.so
 
@@ -520,9 +506,7 @@ vendor/lib64/libthermalioctl.so
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
-vendor/lib/libTimeService.so
 -vendor/lib64/libtime_genoff.so
-vendor/lib64/libTimeService.so
 
 # Widevine
 vendor/lib/libWVStreamControlAPI_L3.so
