@@ -118,12 +118,16 @@ persist.media.treble_omx=false
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.am.reschedule_service=true
-ro.sys.fw.dex2oat_thread_count=4
 
 # Netmgrd
 ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
 persist.data.mode=concurrent
+
+# Optimize
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=4
 
 # Nitz
 persist.rild.nitz_plmn=
