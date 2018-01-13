@@ -388,7 +388,6 @@ etc/permissions/telephonyservice.xml
 -framework/QtiTelephonyServicelibrary.jar
 -framework/qcrilhook.jar
 -framework/qti-telephony-common.jar
--framework/telephony-ext.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 etc/permissions/qti_libpermissions.xml
 vendor/bin/hw/rild
