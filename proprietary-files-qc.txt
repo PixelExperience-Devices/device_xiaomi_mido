@@ -184,7 +184,6 @@ vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/hw/vulkan.msm8953.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
@@ -194,7 +193,6 @@ vendor/lib/libbccQTI.so
 vendor/lib/libc2d30-a5xx.so
 vendor/lib/libc2d30_bltlib.so
 vendor/lib/libgsl.so
-vendor/lib/libhdr_tm.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libllvm-qgl.so
@@ -202,20 +200,12 @@ vendor/lib/libmm-disp-apis.so
 vendor/lib/libmm-qdcm.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
-vendor/lib/libscalar.so
-vendor/lib/libsd_sdk_display.so
-vendor/lib/libsdm-color.so
-vendor/lib/libsdm-diag.so
--vendor/lib/libsdm-disp-vndapis.so
-vendor/lib/libsdmextension.so
-vendor/lib/libtinyxml2_1.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/hw/vulkan.msm8953.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
@@ -225,7 +215,6 @@ vendor/lib64/libbccQTI.so
 vendor/lib64/libc2d30-a5xx.so
 vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libgsl.so
-vendor/lib64/libhdr_tm.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
@@ -234,14 +223,31 @@ vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmm-qdcm.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
+vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
+
+# Graphics (HDR)
+vendor/lib/libhdr_tm.so
+vendor/lib64/libhdr_tm.so
+
+# Graphics (SDM)
+lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
+lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
 vendor/lib64/libscalar.so
-vendor/lib64/libsd_sdk_display.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
 -vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
-vendor/lib64/libuiblur.so|4b3fabf5ded7c4af531abde681676fc5e9248494
+vendor/lib/libscalar.so
+vendor/lib/libsdm-color.so
+vendor/lib/libsdm-diag.so
+-vendor/lib/libsdm-disp-vndapis.so
+vendor/lib/libsdmextension.so
+vendor/lib/libtinyxml2_1.so
+
+# Graphics vulkan
+vendor/lib/hw/vulkan.msm8953.so
+vendor/lib64/hw/vulkan.msm8953.so
 
 # Ipacm
 vendor/bin/ipacm-diag
