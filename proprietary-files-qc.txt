@@ -383,6 +383,26 @@ vendor/lib64/libsmemlog.so
 # Radio
 -app/SimSettings/SimSettings.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
+
+-app/radioconfig/radioconfig.apk
+etc/permissions/qcrilhook.xml
+etc/permissions/telephonyservice.xml
+-framework/QtiTelephonyServicelibrary.jar
+-framework/qcrilhook.jar
+-framework/qti-telephony-common.jar
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+etc/permissions/qti_libpermissions.xml
+vendor/bin/hw/rild
+vendor/bin/ipacm-diag
+vendor/bin/netmgrd
+vendor/bin/port-bridge
+vendor/bin/rmt_storage
+vendor/bin/tftp_server
+vendor/etc/data/dsi_config.xml
+vendor/etc/data/netmgr_config.xml
+etc/permissions/embms.xml
+etc/permissions/qcnvitems.xml
+
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 -framework/QtiTelephonyServicelibrary.jar
