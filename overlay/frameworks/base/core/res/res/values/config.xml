@@ -434,6 +434,7 @@
     <!-- Enable NightLight -->
     <bool name="config_nightDisplayAvailable">true</bool>
 
+
     <!-- Button brightness -->
     <integer name="config_buttonBrightnessSettingDefault">255</integer>
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>    
@@ -452,4 +453,9 @@
     <!-- Do the battery/notification LEDs support pulsing?
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
+
+    <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
+    <bool name="config_useRoundIcon">true</bool>
+
+
 </resources>
