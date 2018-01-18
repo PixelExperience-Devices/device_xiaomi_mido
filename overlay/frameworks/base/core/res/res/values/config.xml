@@ -252,6 +252,30 @@
     <!-- MMS user agent prolfile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
 
+    <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
+    <bool name="config_dozePulsePickup">true</bool>
+
+    <!-- Control whether the always on display mode is available. This should only be enabled on
+         devices where the display has be tuned to be power efficient in DOZE and/or DOZE_SUSPEND
+         states. -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <!-- Whether WiFi display is supported by this device.
+         There are many prerequisites for this feature to work correctly.
+         Here are a few of them:
+         * The WiFi radio must support WiFi P2P.
+         * The WiFi radio must support concurrent connections to the WiFi display and
+           to an access point.
+         * The Audio Flinger audio_policy.conf file must specify a rule for the "r_submix"
+           remote submix module.  This module is used to record and stream system
+           audio output to the WiFi display encoder in the media server.
+         * The remote submix module "audio.r_submix.default" must be installed on the device.
+         * The device must be provisioned with HDCP keys (for protected content). -->
+    <bool name="config_enableWifiDisplay">true</bool>
+
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
 
