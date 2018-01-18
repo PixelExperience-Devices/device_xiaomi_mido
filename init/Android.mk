@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_C_INCLUDES := system/core/init
+LOCAL_C_INCLUDES := system/core/init external/selinux/libselinux/include
 LOCAL_MODULE := libinit_mido
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := init_mido.cpp
