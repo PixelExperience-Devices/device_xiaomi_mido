@@ -31,8 +31,8 @@
 
 #include "vendor_init.h"
 #include "property_service.h"
-
-using android::init::property_set;
+#include "log.h"
+#include "util.h"
 
 char const *heapstartsize;
 char const *heapgrowthlimit;
