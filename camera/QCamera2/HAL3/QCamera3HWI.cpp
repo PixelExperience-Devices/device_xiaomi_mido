@@ -6819,8 +6819,8 @@ int QCamera3HardwareInterface::initStaticMetadata(uint32_t cameraId)
     staticInfo.update(ANDROID_SENSOR_INFO_WHITE_LEVEL,
             &gCamCapability[cameraId]->white_level, 1);
 
-    if(facingBack && gCamCapability[cameraId]->black_level_pattern[0] < 32) {
-        int32_t black_level_pattern_custom[BLACK_LEVEL_PATTERN_CNT] = {64,64,64,64};
+    if(facingBack && gCamCapability[cameraId]->black_level_pattern[0] < 16) {
+        int32_t black_level_pattern_custom[BLACK_LEVEL_PATTERN_CNT] = {32,32,32,32};
         staticInfo.update(ANDROID_SENSOR_BLACK_LEVEL_PATTERN,
                 black_level_pattern_custom, BLACK_LEVEL_PATTERN_CNT);
     } else {
