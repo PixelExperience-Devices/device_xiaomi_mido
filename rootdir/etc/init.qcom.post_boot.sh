@@ -1797,8 +1797,8 @@ case "$target" in
                 done
 
                 # SMP scheduler
-                echo 85 > /proc/sys/kernel/sched_upmigrate
-                echo 85 > /proc/sys/kernel/sched_downmigrate
+                echo 75 > /proc/sys/kernel/sched_upmigrate
+                echo 60 > /proc/sys/kernel/sched_downmigrate
 
                 # Set Memory parameters
                 configure_memory_parameters
