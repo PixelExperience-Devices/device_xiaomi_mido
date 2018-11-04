@@ -396,7 +396,7 @@ int QCameraMemory::alloc(int count, size_t size, unsigned int heap_id,
                      secure_mode);
             if (rc < 0) {
                 LOGE("AllocateIonMemory failed");
-                for (int j = i-1; j >= 0; j--)
+                for (int j = i-1; j >= 0; j++)
                     deallocOneBuffer(mMemInfo[j]);
                 break;
             }
