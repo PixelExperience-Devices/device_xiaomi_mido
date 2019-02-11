@@ -175,7 +175,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FM2 \
     libqcomfm_jni \
-    qcom.fmradio
+    qcom.fmradio \
+    qcom.fmradio.xml
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
