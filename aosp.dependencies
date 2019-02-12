@@ -1,0 +1,21 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "zeelog/android_kernel_xiaomi_msm8953",
+    "target_path": "kernel/xiaomi/msm8953",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "zeelog/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0",
+    "remote": "github"
+  }
+]
+
