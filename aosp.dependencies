@@ -7,7 +7,7 @@
   },
   {
     "remote":      "github",
-    "repository":  "zeelog/proprietary_vendor_xiaomi",
+    "repository":  "aryankedare/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch":      "lineage-16.0"
   },
