@@ -1,9 +1,9 @@
 [
   {
     "remote":      "github",
-    "repository":  "penglezos/android_kernel_xiaomi_msm8953",
+    "repository":  "aryankedare/android_kernel_xiaomi_msm8953",
     "target_path": "kernel/xiaomi/msm8953",
-    "branch":      "pie"
+    "branch":      "lineage-16.0"
   },
   {
     "remote":      "github",
