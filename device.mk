@@ -212,7 +212,8 @@ PRODUCT_PACKAGES += \
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
-    ims_ext_common.xml
+    ims_ext_common.xml \
+    libui_shim
 
 # Input
 PRODUCT_COPY_FILES += \
