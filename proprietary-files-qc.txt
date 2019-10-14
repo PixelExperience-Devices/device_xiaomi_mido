@@ -85,7 +85,7 @@ framework/com.quicinc.cne.api-V1.0-java.jar|9cf7b7f1784c3594e3329954f64b1b129c43
 framework/com.quicinc.cne.jar|ce985797730a043142c2312e30ada28cb755faef
 lib/vendor.qti.hardware.data.latency@1.0.so|0150bb01e49d85b8d7509d99834c7fd14dae9631
 lib64/vendor.qti.hardware.data.latency@1.0.so|2ad62be0c654c467c3bc97232733886375b0d97e
--priv-app/CNEService/CNEService.apk|4c6ee655fcdda500f4999ca9b3e1c028af2c8a71
+-priv-app/CNEService/CNEService.apk|d8579ab4633111f5473b3be8c9da487504908167
 vendor/bin/cnd|81c0f2beecb6f375b4d460adbfb739b8aa970a70
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -442,8 +442,8 @@ etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|3a6bc2a522270f968ff5a332b8781c0289e6d1ef
 framework/QtiTelephonyServicelibrary.jar|1df2f89ffb3aedc36e1c2ca7cafbf73a6a06b3fb
 framework/qcrilhook.jar|784df5e6aa9df0127700b9a6f1083440ebfac057
-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|d1d3adfe6eff32a3013e146317324029181e3c4a
+framework/qti-telephony-common.jar|532af9b997feab1f71c3a6457d14b7bec22fe6b6
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|956a4017d0ba7f68e6d225e57b40d3b2bcbb4837
 vendor/bin/ATFWD-daemon|d8e8b853f33411504054eb965b1fb836544daee4
 vendor/bin/netmgrd|e9c82b0644cb08b160a2ce484fdb58830306237d
 vendor/bin/qti|28c5da423ba2e0c7873c24e6eca4bb4db7f41fe8
