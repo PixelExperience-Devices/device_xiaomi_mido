@@ -127,6 +127,13 @@ on boot
     # Set the default message loglevel to KERN_INFO
     write /proc/sys/kernel/printk "6 6 1 7"
 
+    # Flashlight
+    chown root system /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_0/max_brightness
+    chmod 0660 /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_0/max_brightness
+    chown root system /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness
+    chmod 0660 /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness
+    write /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness 0
+
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
     # Create hvdcp_opti directory
