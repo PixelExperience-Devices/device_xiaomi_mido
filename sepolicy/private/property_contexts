@@ -1,1 +1,4 @@
 ro.hardware.chipname    u:object_r:exported_default_prop:s0
+
+# Fastbootd
+ro.fastbootd.available	u:object_r:exported_default_prop:s0

@@ -54,6 +54,9 @@ persist.demo.hdmirotationlock=false
 persist.hwc.mdpcomp.enable=true
 vendor.display.enable_default_color_mode=1
 
+# fastbootd
+ro.fastbootd.available=true
+
 # Fingerprint
 persist.qfp=false
 
