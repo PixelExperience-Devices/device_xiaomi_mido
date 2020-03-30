@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Use KudProject dev certificates if available
+-include vendor/kud/config/certs.mk
+
 $(call inherit-product, vendor/xiaomi/mido/mido-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
