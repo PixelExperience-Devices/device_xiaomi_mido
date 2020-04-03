@@ -1,6 +1,10 @@
 [
- {
-   "repository": "android_kernel_xiaomi_mido",
-   "target_path": "kernel/xiaomi/mido"
- }
+  {
+    "repository": "KudProject/kernel_xiaomi_msm8953-3.18",
+    "target_path": "kernel/xiaomi/msm8953-3.18"
+  },
+  {
+    "repository": "KudProject/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi"
+  }
 ]
