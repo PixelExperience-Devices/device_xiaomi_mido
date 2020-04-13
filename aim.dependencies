@@ -4,6 +4,11 @@
     "target_path": "kernel/xiaomi/msm8953-3.18"
   },
   {
+    "repository": "KudProject/prebuilts_clang_host_linux-x86",
+    "target_path": "prebuilts/clang/host/linux-x86",
+    "revision": "r377782c"
+  },
+  {
     "repository": "KudProject/proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi"
   }
