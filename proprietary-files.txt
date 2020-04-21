@@ -921,18 +921,18 @@ vendor/lib64/vendor.display.color@1.0.so|f0af4540df53f4b921af726515beda9a1982c79
 vendor/lib64/vendor.display.postproc@1.0.so|b492eb78d6f4c32158883b142f5d731706a2f7dc
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|f8a0e23cf538bc6664627ba9ac9efec7cfb34077
 
-# Graphics (SDM) - from LA.UM.8.6.r1-04000-89xx.0
+# Graphics (SDM) - from LA.UM.8.6.r1-03400-89xx.0
 vendor/lib/libscalar.so|7ac579768ffd2caee903d69d8fd3f7918b04ffbe
-vendor/lib/libsdm-color.so|6dc7253b7c3b950777d0d4ece05db7b45a2d294f
+vendor/lib/libsdm-color.so|fa3feba972c1076c3055367c969212df5e0e4a90
 vendor/lib/libsdm-diag.so|46b5c2d6fab1e655efde1657b2e51dc00c00b763
 -vendor/lib/libsdm-disp-vndapis.so|9bd99e0024f5abcc285f64aadea8725556f16789
-vendor/lib/libsdmextension.so|dd1b0812e134ff75994812732954fa03d7eb4414
+vendor/lib/libsdmextension.so|ed08025c0bd11445f0a0489cfdca7831a2b8b478
 vendor/lib/libtinyxml2_1.so|ef2167416f7a5a503256c5e818fcfa660d5146f4
 vendor/lib64/libscalar.so|b7feb3266d5bccab8b26c49eea6ac8e295192f9a
-vendor/lib64/libsdm-color.so|dc3e17f9858e4578c69fd597b21f0dd4f6f52794
+vendor/lib64/libsdm-color.so|335415c8f85a1e2e102667c24dffb166e7b08e75
 vendor/lib64/libsdm-diag.so|87373a043267b9b3bb923931a910119a9deb425f
 -vendor/lib64/libsdm-disp-vndapis.so|b1dede9efa81e8d0374343612ad7ad0d967e8e29
-vendor/lib64/libsdmextension.so|133db0462e62fa331eb622b02528b5cdcc08a446
+vendor/lib64/libsdmextension.so|6184043b163c502e3b89dbc216421f096a01d5b3
 vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
 
 # Graphics firmware - from Tissot PKQ1.180917.001.V10.0.17.0.PDHMIXM
