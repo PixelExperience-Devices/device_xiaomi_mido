@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "packages_apps_PixelLiveWallpaper",
+    "target_path": "packages/apps/PixelLiveWallpaper",
+    "branch": "ten",
+    "remote": "pixel-gitlab"
+  },
+  {
+    "remote":      "github",
+    "repository":  "PixelExperience-Devices/kernel_xiaomi_mido",
+    "target_path": "kernel/xiaomi/mido",
+    "branch":      "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "PixelExperience-Devices/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
+  }
+]
