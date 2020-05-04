@@ -22,8 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-aim
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-pe
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -411,6 +410,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+
+# Wallpapers
+PRODUCT_PACKAGES += \
+    WallpapersBReel2019
 
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
