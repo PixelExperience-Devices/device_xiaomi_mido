@@ -1,6 +1,11 @@
 #
 # system.prop for mido
 #
+
+# Pixel identification
+PRODUCT_PRODUCT_PROPERTIES += \
+ro.build.fingerprint=google/flame/flame:10/QQ2A.200501.001.A3/6353761:user/release-keys
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 af.fast_track_multiplier=2 \
