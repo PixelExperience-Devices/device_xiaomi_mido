@@ -4,7 +4,7 @@
 
 # Pixel identification
 PRODUCT_PRODUCT_PROPERTIES += \
-ro.build.fingerprint=google/flame/flame:10/QQ2A.200501.001.A3/6353761:user/release-keys
+ro.build.fingerprint=google/flame/flame:10/QQ3A.200605.001/6392402:user/release-keys
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
