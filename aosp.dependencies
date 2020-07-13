@@ -12,9 +12,9 @@
     "branch":      "ten"
   },
   {
-    "remote": "github",
-    "repository": "PixelExperience-Devices/vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
+    "remote": "pixel-devices-bitbucket",
+    "repository": "vendor_xiaomi_mido",
+    "target_path": "vendor/xiaomi/mido",
     "branch": "ten"
   }
 ]
