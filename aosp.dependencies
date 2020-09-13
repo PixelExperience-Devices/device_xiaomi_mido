@@ -12,7 +12,7 @@
     "branch":      "ten"
   },
   {
-    "remote": "pixel-devices-bitbucket",
+    "remote": "pixel-devices-blobs",
     "repository": "vendor_xiaomi_mido",
     "target_path": "vendor/xiaomi/mido",
     "branch": "ten"
