@@ -133,7 +133,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libmm-qcamera \
-    libshim_camera \
     Snap
 
 # Consumerir
