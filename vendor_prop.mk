@@ -4,7 +4,7 @@
 
 # Pixel identification
 PRODUCT_PRODUCT_PROPERTIES += \
-ro.build.fingerprint=google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys
+ro.build.fingerprint=google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
