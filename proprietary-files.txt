@@ -62,6 +62,10 @@ vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|ba8ab21912dd9a8c41014f6c26f2dca6d44
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|b1a9a1497d1ecfab01e8a59d4c33410d409753a3
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp|997da5dd12d92c6c803cf33c69b5a1a92dd2fe49
 
+# libaudioparsers from daisy-user-10-QKQ1.191002.002-V11.0.5.0.QDLMIXM-release-keys
+-vendor/lib/libaudioparsers.so
+-vendor/lib64/libaudioparsers.so
+
 # Bluetooth - from LA.UM.9.6.2.r1-03300-89xx.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
