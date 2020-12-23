@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
-
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
