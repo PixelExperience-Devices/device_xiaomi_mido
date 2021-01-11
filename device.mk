@@ -31,6 +31,9 @@ TARGET_SCREEN_WIDTH := 1080
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Qcom soong namespace
+QCOM_SOONG_NAMESPACE := hardware/qcom-caf/msm8996-r
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
