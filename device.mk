@@ -343,6 +343,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
+    init.soundcontrol.rc \
     init.target.rc \
     ueventd.qcom.rc
 
