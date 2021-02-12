@@ -169,13 +169,14 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-    libdisplayconfig.qti.vendor \
+    libdisplayconfig.qti \
     liboverlay \
     libgenlock \
     libqdMetaData \
     libtinyxml \
     libvulkan \
-    vendor.display.config@1.0.vendor
+    vendor.display.config@1.0.vendor \
+    vendor.display.config@2.0
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
@@ -307,7 +308,8 @@ PRODUCT_PACKAGES += \
     libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_enc_common
 
 # Power
 PRODUCT_PACKAGES += \
