@@ -281,8 +281,6 @@ PRODUCT_PACKAGES += \
 # LMKD
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lmk.log_stats=true
 
 # Media
 PRODUCT_COPY_FILES += \
