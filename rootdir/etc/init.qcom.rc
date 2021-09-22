@@ -352,3 +352,6 @@ service vendor.sensors-hal-1-0 /vendor/bin/hw/android.hardware.sensors@1.0-servi
     group system wakelock uhid input context_hub
     capabilities BLOCK_SUSPEND
     rlimit rtprio 10 10
+
+on property:hw.fm.init=*
+    write /sys/module/radio_iris_transport/parameters/fmsmd_set ${hw.fm.init}

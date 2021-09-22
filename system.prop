@@ -52,7 +52,7 @@ vendor.gralloc.enable_fb_ubwc=1
 persist.qfp=false
 
 # FM
-ro.fm.transmitter=false
+hw.fm.init=0
 
 # LMKD
 ro.lmk.log_stats=true
