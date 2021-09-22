@@ -196,9 +196,9 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
-    FM2 \
-    libqcomfm_jni \
-    qcom.fmradio
+    FMRadio \
+    libfmjni \
+    fm-commonsys
 
 # Fwk-detect
 PRODUCT_PACKAGES += \
