@@ -390,7 +390,7 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.rc \
     init.qcom.sh \
-    init.qcom.usb.rc \
+    init.mido.usb.rc \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
     init.parts.rc \
@@ -438,7 +438,7 @@ PRODUCT_PACKAGES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
+    android.hardware.usb@1.0-service.mido
 
 # vndservicemanager
 PRODUCT_PACKAGES += \
