@@ -133,3 +133,6 @@ ro.zram.periodic_wb_delay_hours=24
 
 # Zygote Preforking
 persist.device.config.runtime_native.usap_pool_enabled=true
+
+# Don't write binary XML files
+persist.sys.binary_xml=false
