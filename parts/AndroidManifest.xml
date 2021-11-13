@@ -142,6 +142,23 @@
                 android:resource="@string/clear_speaker_summary" />
         </activity>
 
+        <activity
+            android:name=".kcal.KcalSettingsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Main"
+            android:label="@string/advanced_settings_kcal">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data 
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/device_kcal_summary" />
+        </activity>
+
         <provider
             android:name=".PartsSearchIndexablesProvider"
             android:authorities="org.lineageos.settings"
