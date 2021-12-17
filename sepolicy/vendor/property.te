@@ -2,4 +2,4 @@
 type vendor_camera_prop, property_type;
 
 # Dirac
-type dirac_prop, property_type;
+system_public_prop(dirac_prop)
