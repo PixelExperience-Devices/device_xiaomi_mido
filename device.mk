@@ -266,8 +266,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_mido
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.xiaomi_mido
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.0-service.xiaomi_mido
 
 # LMKD
 # Enable stats logging in LMKD
