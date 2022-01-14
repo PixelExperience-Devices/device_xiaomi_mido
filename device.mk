@@ -378,8 +378,8 @@ PRODUCT_PACKAGES += \
     thermal.msm8953
 
 # Touch features
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi_mido
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.touch@1.0-service.xiaomi_mido
 
 # USB HAL
 PRODUCT_PACKAGES += \
