@@ -11,3 +11,6 @@ allow qti_init_shell proc_page_cluster:file { open write };
 
 # Postboot
 allow qti_init_shell sysfs:file { write setattr };
+
+# FM
+set_prop(qti_init_shell, vendor_fm_prop)
