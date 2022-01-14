@@ -33,8 +33,5 @@ allow gx_fpd self:{ netlink_socket netlink_generic_socket } create_socket_perms_
 # Allow reading firmware file
 r_dir_file(gx_fpd, firmware_file)
 
-# Allow read/write property
-set_prop(gx_fpd, system_prop)
-
 # Ignore all logging requests
 dontaudit gx_fpd storage_file:dir search;
