@@ -18,7 +18,7 @@ genfscon sysfs   /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000
 genfscon sysfs   /devices/platform/soc/200f000.qcom,spmi/spmi-0/spmi0-02/200f000.qcom,spmi:qcom,pm8953@0:qcom,pm8953_rtc                     u:object_r:sysfs_rtc:s0
 
 # ProcFS
-genfscon proc /sys/vm/swappiness                                      u:object_r:proc_swap:s0
+genfscon proc /sys/vm/dirty_writeback_centisecs                       u:object_r:proc_dirty:s0
 
 # Touchscreen
 genfscon proc /touchpanel                                             u:object_r:proc_touchpanel:s0
