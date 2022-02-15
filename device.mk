@@ -390,8 +390,7 @@ PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext
+    qti_telephony_utils.xml
 
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
@@ -402,9 +401,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.0.vendor
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # Sensors
 PRODUCT_PACKAGES += \
