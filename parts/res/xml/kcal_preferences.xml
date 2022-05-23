@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <org.lineageos.settings.preferences.SecureSettingSwitchPreference
+        android:defaultValue="false"
+        android:key="kcal_enabled"
+        android:title="@string/kcal_disabled" 
+        app:iconSpaceReserved="false"/>
+
+    <org.lineageos.settings.preferences.SecureSettingSwitchPreference
+        android:defaultValue="false"
+        android:dependency="kcal_enabled"
+        android:key="set_on_boot"
+        android:title="@string/set_on_boot"
+        app:iconSpaceReserved="false"/>
+
+    <org.lineageos.settings.preferences.SecureSettingSwitchPreference
+        android:defaultValue="false"
+        android:dependency="kcal_enabled"
+        android:key="grayscale"
+        android:title="@string/grayscale"
+        app:iconSpaceReserved="false"/>
+
+    <PreferenceCategory
+        android:key="cat_colormanagement"
+        android:title="@string/cat_colormanagement"
+        app:iconSpaceReserved="false">
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="255"
+            android:dependency="kcal_enabled"
+            android:key="color_red"
+            android:max="255"
+            android:title="@string/color_red"
+            app:iconSpaceReserved="false"/>
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="255"
+            android:dependency="kcal_enabled"
+            android:key="color_green"
+            android:max="255"
+            android:title="@string/color_green"
+            app:iconSpaceReserved="false"/>
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="255"
+            android:dependency="kcal_enabled"
+            android:key="color_blue"
+            android:max="255"
+            android:title="@string/color_blue"
+            app:iconSpaceReserved="false"/>
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="35"
+            android:dependency="kcal_enabled"
+            android:key="color_minimum"
+            android:max="255"
+            android:title="@string/color_minimum"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_calibration"
+        android:title="@string/cat_calibration"
+        app:iconSpaceReserved="false">
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="35"
+            android:dependency="kcal_enabled"
+            android:key="saturation"
+            android:max="158"
+            android:title="@string/saturation"
+            app:iconSpaceReserved="false"/>
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="127"
+            android:dependency="kcal_enabled"
+            android:key="value"
+            android:max="255"
+            android:title="@string/value"
+            app:iconSpaceReserved="false"/>
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="127"
+            android:dependency="kcal_enabled"
+            android:key="contrast"
+            android:max="255"
+            android:title="@string/contrast"
+            app:iconSpaceReserved="false"/>
+
+        <org.lineageos.settings.preferences.SecureSettingSeekBarPreference
+            android:defaultValue="0"
+            android:dependency="kcal_enabled"
+            android:key="hue"
+            android:max="1536"
+            android:title="@string/hue" 
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
