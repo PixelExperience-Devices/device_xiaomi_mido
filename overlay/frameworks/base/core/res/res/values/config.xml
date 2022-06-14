@@ -500,7 +500,7 @@
     </string-array>
 
     <!-- Disable rounded corners on windows to improve graphics performance -->
-    <bool name="config_supportsRoundedCornersOnWindows">false</bool>
+    <bool name="config_supportsRoundedCornersOnWindows">true</bool>
 
     <!-- Flag indicating whether the surface flinger has limited
         alpha compositing functionality in hardware.  If set, the window
