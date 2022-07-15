@@ -1,0 +1,16 @@
+android_app_import {
+    name: "GrapheneOSCamera",
+    apk: "prebuilt/Camera-44.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+    overrides: [
+        "SnapdragonCamera",
+        "Snap",
+        "Camera2",
+        "Camera",
+    ], 
+}
