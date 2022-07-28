@@ -150,4 +150,12 @@
     <string name="clear_speaker_title">Clear speaker</string>
     <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
     <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.</string>
+
+    <!-- Vibration Intensity -->
+    <string name="haptic_warning">Setting-up haptic level too high may cause permanent hardware damage, use at your own risk</string>
+    <string name="haptic_summary">Customize vibration intensity</string>
+    <string name="vibrator_intensity_control">Vibration Intensity Control</string>
+    <string name="vmax_override_mode_title">Override Vibration Intensity</string>
+    <string name="vmax_override_mode_summary">Overrides vibration intensity value for all notification events</string>
+    <string name="system_strength_title">Vibration strength</string>
 </resources>
