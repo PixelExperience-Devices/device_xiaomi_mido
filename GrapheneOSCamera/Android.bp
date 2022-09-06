@@ -1,6 +1,6 @@
 android_app_import {
     name: "GrapheneOSCamera",
-    apk: "prebuilt/Camera-45.apk",
+    apk: "prebuilt/Camera-47.apk",
     presigned: true,
     dex_preopt: {
         enabled: false,
