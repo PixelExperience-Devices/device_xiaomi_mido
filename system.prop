@@ -168,3 +168,6 @@ persist.sys.binary_xml=false
 
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
+
+# Zygote
+zygote.critical_window.minute=10
