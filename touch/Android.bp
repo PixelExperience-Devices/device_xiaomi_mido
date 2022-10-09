@@ -21,6 +21,7 @@ cc_binary {
     vendor: true,
     srcs: [
         "GloveMode.cpp",
+        "KeyDisabler.cpp",
         "service.cpp"
     ],
     shared_libs: [
