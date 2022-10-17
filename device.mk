@@ -163,7 +163,7 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libcamshim \
     libui_shim \
-    GrapheneOSCamera
+    Aperture
 
 # ConfigStore
 PRODUCT_PACKAGES += \
