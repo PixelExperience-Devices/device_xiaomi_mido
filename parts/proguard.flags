@@ -17,7 +17,3 @@
 -keep class org.lineageos.settings.speaker.* {
   *;
 }
-
--keep class org.lineageos.settings.vibration.* {
-  *;
-}
