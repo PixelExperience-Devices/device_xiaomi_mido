@@ -161,3 +161,6 @@ persist.hwc.enable_vds=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
