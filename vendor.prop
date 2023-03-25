@@ -90,6 +90,7 @@ persist.vendor.cne.feature=1
 # Display
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
+ro.hwui.render_ahead=20
 ro.opengles.version=196610
 ro.vendor.display.cabl=2
 vendor.display.disable_metadata_dynamic_fps=1
