@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_QUICK_TAP := false
 TARGET_USES_AOSP_RECOVERY := true
 
 # Inherit some common PixelExperience stuff.
