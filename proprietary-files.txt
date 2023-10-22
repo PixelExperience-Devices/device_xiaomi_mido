@@ -792,6 +792,11 @@ lib64/libfp_client.so:vendor/lib64/libfp_client.so
 lib64/libfpnav.so:vendor/lib64/libfpnav.so
 lib64/libfpservice.so:vendor/lib64/libfpservice.so
 
+# FM Radio - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
+vendor/bin/fm_qsoc_patches|84e197364b2ec81cb9dfff97af49b30afa06b6e9
+vendor/etc/init/init.qti.fm.rc|07cb64e2109a900eb6e1da1950fddba954d0f8d6
+
 # FM Radio - from Fairphone/FP3/FP3:13/6.A.018.0/gms-1f4b2a90:user/release-keys
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|a7c3fdcdfdf2d982b04baa89e0e4dc5f5d505bf7
 
