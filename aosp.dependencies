@@ -1,0 +1,14 @@
+[
+    {
+        "repository": "NRanjan-17/vendor_xiaomi_mido",
+        "target_path": "vendor/xiaomi/mido",
+        "branch": "thirteen",
+        "remote": "github"
+    },
+    {
+        "repository": "NRanjan-17/kernel_xiaomi_mido",
+        "target_path": "kernel/xiaomi/mido",
+        "branch": "thirteen",
+        "remote": "github"
+    }
+]
