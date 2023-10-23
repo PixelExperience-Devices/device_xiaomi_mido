@@ -1,4 +1,2 @@
 allow hal_gnss_qti self:capability { setuid setgid net_bind_service };
 
-# xtra-daemon control
-get_prop(hal_gnss_qti, xtra_control_prop)
